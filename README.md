@@ -1,8 +1,7 @@
 # istoo.github.io
 
-海外研发 X 日报站点（GitHub Pages）。
+**istoo · AI 技术博客** — https://istoo.github.io/
 
-- 站点：https://istoo.github.io/
-- 最新日报：https://istoo.github.io/digest/2026-10-27.html
+海外 AI 研发 / 产品信号的中文技术博文。源码构建于 Vite + React + TS（shadcn Nova）。
 
-内容来自海外 AI 公司研发 / 产品账号在 X 上的公开帖，中文整理；源帖均保留原链接。
+Publish: build `istoo-digest-app` → push `dist/` to this repo `main`.
