@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+    <script>
+      (function () {
+        var path = location.pathname || "/";
+        var search = location.search || "";
+        // Keep repo-root Pages paths; map /post/... and /?cat=... into the HashRouter.
+        if (path !== "/" && path !== "/index.html") {
+          location.replace("/#" + path + search);
+        } else if (search) {
+          location.replace("/#" + "/" + search);
+        } else {
+          location.replace("/");
+        }
+      })();
+    </script>
+    <meta http-equiv="refresh" content="0;url=/" />
+  </head>
+  <body>
+    <p><a href="/">返回首页</a></p>
+  </body>
+</html>
